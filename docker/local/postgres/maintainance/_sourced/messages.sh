@@ -28,6 +28,6 @@ message_suggestion() {
   echo -e "\e[33mSUGGESTION\e[0m: ${@}"
 }
 
-message_suggestion() {
+message_success() {
   echo -e "\e[32mSUCCESS\e[0m: ${@}"
 }
